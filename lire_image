@@ -2,8 +2,10 @@
 # -*- coding: utf-8 -*-
 
 import cv2 
-path =""
-img = cv2.imread()
+path ="im.png"
+img = cv2.imread(path)
 
-
+cv2.imshow('img',img)
+cv2.waitKey()
+cv2.destroyAllWindows()
 
